@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <form>
+        <header><h1>News</h1></header>
+        <div>
+            <label>Nome: </label>
+            <input type="text" onchange="Change()" />
+        </div>
+        <div>
+            <button class="button" type="submit" id="sub" onclick="Subscribe()" disabled>Subscribe</button>
+            <button class="button" type="submit" id="unsub" onclick="Unsubscribe()" disabled>Unsubscribe</button>
+</div>
+    </form>
+
+    <div class="tastoHome">
+        <br/>
+        <a href="home.html"><button class="button">Home</button></a>
+    </div>
+
+    <footer>
+        <p>
+            The Great Gatsby | <a href="home.html">Home</a> | <a href="schedatecnica.html">Scheda Tecnica</a> |
+            <a href="attori.html">Attori</a> | <a href="news.html">News</a> | Copyright &copy; Elvira Verrengia
+        </p>
+    </footer>
+
+</body>
+</html>
